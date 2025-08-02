@@ -40,38 +40,58 @@ A simple Java-based project simulating a **smart traffic light network** using *
 - Git (for cloning the repository)
 
 ### Steps to Run
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Sarahtxts/SMART-TRAFFIC-LIGHT-NETWORK-SIMULATION.git
-   cd SMART-TRAFFIC-LIGHT-NETWORK-SIMULATION
-2. **Compile the source code**
-   '''bash
-   javac *.java
-3. **Start the server**
-   '''bash
-   java TrafficLightServer
-4. **Run the GUI (optional)**
-   '''bash
-   java TrafficLightGUI
-6. **Simulate a vehicle client**
-   '''bash
-   java VehicleClient
-   
-##📷 Example Output
 
-Server Console:
-Traffic Light changed to: RED
-Traffic Light changed to: GREEN
+### 1. Compile the Source Code
+```bash
+javac *.java
+```
+
+### 2. Start the Server
+```bash
+java TrafficLightServer
+```
+
+### 3. Run the GUI (Optional)
+```bash
+java TrafficLightGUI
+```
+
+### 4. Simulate a Vehicle Client
+```bash
+java VehicleClient
+```
+
+---
+
+## 📺 Example Output
+
+### Server Console
+```yaml
+Traffic Light changed to: RED  
+Traffic Light changed to: GREEN  
 Vehicle Request: Vehicle arrived
+```
 
-Client Console:
+### Client Console
+```yaml
 Traffic Light State: GREEN
+```
 
-##🔮 Future Improvements
-Configuration support for cycle timings & server port
-Enhanced GUI for multiple intersections
-Priority handling for emergency vehicles
-Use of thread pool for handling many vehicles efficiently
+---
 
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+## 🔮 Future Improvements
+
+- Configurable cycle timings and server port via external config file  
+- Enhanced GUI to support multiple intersections  
+- Priority handling for emergency vehicles  
+- Use of thread pool for scalable vehicle client handling  
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Would you like help adding a project description, diagram, or contribution guidelines to make it even more complete?
