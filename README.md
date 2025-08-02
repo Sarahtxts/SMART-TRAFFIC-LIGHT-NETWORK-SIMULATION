@@ -93,5 +93,3 @@ Traffic Light State: GREEN
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-Would you like help adding a project description, diagram, or contribution guidelines to make it even more complete?
